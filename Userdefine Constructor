@@ -1,0 +1,20 @@
+package program;
+
+public class DefaultConstructor {
+	String language;
+	String name;
+	int year;
+	DefaultConstructor(String name,int year, String lang){
+		this.name=name;
+		this.year=year;
+		this.language=lang;
+	}
+	void Display() {
+		 System.out.println("userdefine Constructor"+" "+name+" "+year);
+	}
+	
+	public static void main(String[]args) {
+		DefaultConstructor ref=new DefaultConstructor("Java",1995,"Programing");
+		ref.Display();
+	}
+}
