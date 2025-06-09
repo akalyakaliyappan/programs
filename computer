@@ -1,0 +1,15 @@
+package program;
+
+public class computer {
+
+	public static void main(String[] args) {
+		System.out.println("my computer");
+
+	}
+
+}
+class Laptop{
+	public static void main(String[] args) {
+		System.out.println("my laptop");
+}
+}
