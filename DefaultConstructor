@@ -1,0 +1,10 @@
+package program;
+
+public class DefaultConstructor {
+	DefaultConstructor(){
+       System.out.println("DefaultConstructor");
+}
+	public static void main(String[]args) {
+		DefaultConstructor ref=new DefaultConstructor();
+	}
+}
